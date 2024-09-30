@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="top">
+                <input type="text" id="screen" placeholder="0" disabled>
+        </div>
+        <div class="bottom">
+            <button class="spec" onclick="allClear()">AC</button>
+            <button class="spec" onclick="delt()">DEL</button>
+            <button class="spec" onclick="input('.')">.</button>
+            <button class="spec" onclick="input('+')">+</button>
+            <button onclick="input('9')">9</button>
+            <button onclick="input('8')">8</button>
+            <button onclick="input('7')">7</button>
+            <button class="spec" onclick="input('-')">-</button>
+            <button onclick="input('6')">6</button>
+            <button onclick="input('5')">5</button>
+            <button onclick="input('4')">4</button>
+            <button class="spec" onclick="input('*')">×</button>
+            <button onclick="input('3')">3</button>
+            <button onclick="input('2')">2</button>
+            <button onclick="input('1')">1</button>
+            <button class="spec" onclick="input('/')">÷</button>
+            <button class="spec2" onclick="input('(')">(</button>
+            <button onclick="input('0')">0</button>
+            <button onclick="input(')')">)</button>
+            <button class="spec1" onclick="calc()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
